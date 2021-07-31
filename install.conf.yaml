@@ -1,11 +1,11 @@
 - defaults:
   link:
     relink: true
+    create: true
 
 - clean: ["~"]
 
 - link:
-  ~/.tmux.conf: tmux.conf
   ~/.vim: vim
   ~/.vimrc: vimrc
 
@@ -14,4 +14,8 @@
     - ~/.vim/undo-history
 
     - shell:
-        - [git submodule update --init --recursive, Installing submodules]
+        # the following have to run after linking ~/.gitconfig
+        - git submodule sync --recursive
+          - git update-submodules
+          - >
+          git cleanall -f

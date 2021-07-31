@@ -2,3 +2,162 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+  #
+  #Vim
+[submodule "itchyny/bundle/lightline"]
+	path = vim/plugged/lightline.vim 
+	url = https://github.com/itchyny/lightline.vim
+	ignore = untracked 
+[submodule "scrooloose/bundle/nerdtree"]
+  path = vim/plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+	ignore = untracked 
+[submodule "ryanoasis/bundle/vim-devicons"]
+  path = vim/plugged/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+	ignore = untracked 
+[submodule "Xuyuanp/bundle/nerdtree-git-plugin"]
+  path = vim/plugged/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+	ignore = untracked 
+[submodule "airblade/bundle/vim-gitgutter"]
+  path = vim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+	ignore = untracked 
+[submodule "jremmen/bundle/vim-ripgrep"]
+  path = vim/plugged/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep
+	ignore = untracked 
+[submodule "mileszs/bundle/ack"]
+  path = vim/plugged/ack.vim
+	url = https://github.com/mileszs/ack.vim
+	ignore = untracked 
+[submodule "hotoo/bundle/jsgf"]
+  path = vim/plugged/jsgf.vim
+	url = https://github.com/hotoo/jsgf.vim
+	ignore = untracked 
+[submodule "tomtom/bundle/tcomment_vim"]
+  path = vim/plugged/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim
+	ignore = untracked 
+[submodule "pangloss/bundle/vim-javascript"]
+  path = vim/plugged/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+	ignore = untracked 
+[submodule "othree/bundle/html5"]
+  path = vim/plugged/html5.vim
+	url = https://github.com/othree/html5.vim
+	ignore = untracked 
+[submodule "maxmellon/bundle/vim-jsx-pretty"]
+  path = vim/plugged/vim-jsx-pretty
+	url = https://github.com/maxmellon/vim-jsx-pretty
+	ignore = untracked 
+[submodule "elzr/bundle/vim-json"]
+  path = vim/plugged/vim-json
+	url = https://github.com/elzr/vim-json
+	ignore = untracked 
+[submodule "hail2u/bundle/vim-css3-syntax"]
+  path = vim/plugged/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax
+	ignore = untracked 
+[submodule "leafOfTree/bundle/vim-matchtag"]
+  path = vim/plugged/vim-matchtag
+	url = https://github.com/leafOfTree/vim-matchtag
+	ignore = untracked 
+[submodule "Galooshi/bundle/vim-import-js"]
+  path = vim/plugged/vim-import-js
+	url = https://github.com/Galooshi/vim-import-js
+	ignore = untracked 
+[submodule "prettier/bundle/vim-prettier"]
+  path = vim/plugged/vim-prettier
+	url = https://github.com/prettier/vim-prettier
+	ignore = untracked 
+[submodule "kana/bundle/vim-arpeggio"]
+  path = vim/plugged/vim-arpeggio
+	url = https://github.com/kana/vim-arpeggio
+	ignore = untracked 
+[submodule "Valloric/bundle/YouCompleteMe"]
+  path = vim/plugged/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+	ignore = untracked 
+[submodule "ErichDonGubler/bundle/vim-sublime-monokai"]
+  path = vim/plugged/vim-sublime-monokai
+	url = https://github.com/ErichDonGubler/vim-sublime-monokai
+	ignore = untracked 
+[submodule "vim-airline/bundle/vim-airline"]
+  path = vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+	ignore = untracked 
+[submodule "vim-airline/bundle/vim-airline-themes"]
+  path = vim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+	ignore = untracked 
+  #
+  #
+    
+[submodule "vim/plugged/lightline.vim"]
+	path = vim/plugged/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "vim/plugged/nerdtree"]
+	path = vim/plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/plugged/vim-devicons"]
+	path = vim/plugged/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "vim/plugged/nerdtree-git-plugin"]
+	path = vim/plugged/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "vim/plugged/vim-gitgutter"]
+	path = vim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/plugged/vim-ripgrep"]
+	path = vim/plugged/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep
+[submodule "vim/plugged/ack.vim"]
+	path = vim/plugged/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "vim/plugged/jsgf.vim"]
+	path = vim/plugged/jsgf.vim
+	url = https://github.com/hotoo/jsgf.vim
+[submodule "vim/plugged/tcomment_vim"]
+	path = vim/plugged/tcomment_vim
+	url = https://github.com/tomtom/tcomment_vim
+[submodule "vim/plugged/vim-javascript"]
+	path = vim/plugged/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "vim/plugged/html5.vim"]
+	path = vim/plugged/html5.vim
+	url = https://github.com/othree/html5.vim
+[submodule "vim/plugged/vim-jsx-pretty"]
+	path = vim/plugged/vim-jsx-pretty
+	url = https://github.com/maxmellon/vim-jsx-pretty
+[submodule "vim/plugged/vim-json"]
+	path = vim/plugged/vim-json
+	url = https://github.com/elzr/vim-json
+[submodule "vim/plugged/vim-css3-syntax"]
+	path = vim/plugged/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax
+[submodule "vim/plugged/vim-matchtag"]
+	path = vim/plugged/vim-matchtag
+	url = https://github.com/leafOfTree/vim-matchtag
+[submodule "vim/plugged/vim-import-js"]
+	path = vim/plugged/vim-import-js
+	url = https://github.com/Galooshi/vim-import-js
+[submodule "vim/plugged/vim-prettier"]
+	path = vim/plugged/vim-prettier
+	url = https://github.com/prettier/vim-prettier
+[submodule "vim/plugged/vim-arpeggio"]
+	path = vim/plugged/vim-arpeggio
+	url = https://github.com/kana/vim-arpeggio
+[submodule "vim/plugged/YouCompleteMe"]
+	path = vim/plugged/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "vim/plugged/vim-sublime-monokai"]
+	path = vim/plugged/vim-sublime-monokai
+	url = https://github.com/ErichDonGubler/vim-sublime-monokai
+[submodule "vim/plugged/vim-airline"]
+	path = vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/plugged/vim-airline-themes"]
+	path = vim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
