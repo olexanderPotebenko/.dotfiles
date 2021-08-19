@@ -50,7 +50,10 @@ set gdefault
 set incsearch
 " Show matching brackets
 set showmatch
-"--------------------------------------
+
+"maps
+let mapleader = ","
+
 "copy past Ctr Shift C/V 
 "apt install vim-gtk
 inoremap <C-v> <ESC>"+pa
@@ -195,19 +198,20 @@ let g:prettier#autoformat_require_pragma = 0
 call arpeggio#map('i', '', 0, 'jk', '<ESC>')
 
 "--------------------------------------
-" "Start autocompletion after 4 chars
-" let g:ycm_min_num_of_chars_for_completion = 4
-" let g:ycm_min_num_identifier_candidate_chars = 4
-" let g:ycm_enable_diagnostic_highlighting = 0
-" " Don't show YCM's preview window [ I find it really annoying ]
-" set completeopt-=preview
-" let g:ycm_add_preview_to_completeopt = 0
+" YouCompleteMe
+"
+"To disble shown hover on cursor hold
+let g:ycm_auto_hover=''
 
 if !exists("g:ycm_semantic_triggers")
   let g:ycm_semantic_triggers = {}
 endif
 let g:ycm_semantic_triggers['typescript'] = ['.']
 
+nmap <leader>t <plug>(YCMHover)
+let s:ycm_hover_popup = -1                                                   
+
+"--------------------------------------
 "Autocmd
 
 " It executes specific command when specific events occured
