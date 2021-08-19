@@ -203,6 +203,11 @@ call arpeggio#map('i', '', 0, 'jk', '<ESC>')
 " set completeopt-=preview
 " let g:ycm_add_preview_to_completeopt = 0
 
+if !exists("g:ycm_semantic_triggers")
+  let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+
 "Autocmd
 
 " It executes specific command when specific events occured
