@@ -161,3 +161,9 @@
 [submodule "vim/plugged/vim-airline-themes"]
 	path = vim/plugged/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/plugged/leafgarland/typescript-vim"]
+	path = vim/plugged/leafgarland/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
+[submodule "vim/plugged/HerringtonDarkholme/yats.vim"]
+	path = vim/plugged/HerringtonDarkholme/yats.vim
+	url = https://github.com/HerringtonDarkholme/yats.vim
