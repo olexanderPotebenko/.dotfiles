@@ -158,10 +158,10 @@ cnoreabbrev Ack Ack!
 nnoremap <Leader>g :Ack!<Space>
 
 " Navigate quickfix list with ease
-" nnoremap <silent> [q :cprevious<CR>
-" nnoremap <silent> ]q :cnext<CR>
-nnoremap <silent> K :cprevious<CR>
-nnoremap <silent> J :cnext<CR>
+nnoremap <silent> [q :cprevious<CR>
+nnoremap <silent> ]q :cnext<CR>
+" nnoremap <silent> K :cprevious<CR>
+" nnoremap <silent> J :cnext<CR>
 
 "--------------------------------------
 " jsgf
